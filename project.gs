@@ -1,8 +1,6 @@
 
 
-
-
-function.inputsym.states.q0.(f::fs).df="#include<stdio.h> \n#include<stdbool.h> \n \n int func(char a,int state) \n {" ++  (foldr.f2."".df) ++" \n else return " ++ (show.q0) ++";" ++ "\n } \n  \n bool fsm(char s[10]) \n { \n int state=" ++(show.q0)++ "; \n for(int j=0;s[j]!=NULL ;j++) \n { \n state=func(s[j],state); \n } \n if(state=="++ (show.f)++ (foldr.f3."".fs)++ ") \n return 1; \n else return 0; \n } \n \n  int main() \n { \n char s[10]; \n scanf(\"%s\",&s); \n printf(\"%d\",fsm(s)); \n return 0; \n }"
+func.inputsym.states.q0.(f::fs).df="#include<stdio.h> \n#include<stdbool.h> \n \n int func(char a,int state) \n {" ++  (foldr.f2."".df) ++" \n else return " ++ (show.q0) ++";" ++ "\n } \n  \n bool fsm(char s[10]) \n { \n int state=" ++(show.q0)++ "; \n for(int j=0;s[j]!=NULL ;j++) \n { \n state=func(s[j],state); \n } \n if(state=="++ (show.f)++ (foldr.f3."".fs)++ ") \n return 1; \n else return 0; \n } \n \n  int main() \n { \n char s[10]; \n scanf(\"%s\",&s); \n printf(\"%d\",fsm(s)); \n return 0; \n }"
 
 
 f2.(ini,ch,next).code
