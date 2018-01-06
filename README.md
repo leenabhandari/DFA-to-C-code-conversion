@@ -20,7 +20,7 @@ Gofer terminal
 Gofer session for:
 /home/leena/gofer/pusimple.pre
 project.gs
-? function.['.','c'].[1,2,3].1.[3].[(1,'#',1),(3,'#',1),(2,'.',2),(1,'.',2),(2,'c',3)]
+? func.['.','c'].[1,2,3].1.[3].[(1,'#',1),(3,'#',1),(2,'.',2),(1,'.',2),(2,'c',3)]
 #include<stdio.h> 
 #include<stdbool.h> 
  
