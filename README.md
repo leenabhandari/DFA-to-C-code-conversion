@@ -6,7 +6,7 @@ This is a tiny program written in gofer which takes a DFA tuple as an input and 
 The format of the tuple is:
 ### {[input symbols],[states],(initial state),[final states],[(initial_state,input_character,next_state)]}
 
-Note: I have reduced the number of lines to 3 lines of effective code by using fold operations.
+Note: I have reduced the number of lines to 3 lines of effective code by using fold operations and the program also converts data to code.
 
 ### Example
 Consider a problem statement which recognizes all strings ending with '.c' 
